@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 3000px;
+    font-family: 'Raleway', sans-serif;
+}
+/*Start nav bar*/
+
+
+.navbar-brand span {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    
+}
+
+.nav-link:hover {
+    border-bottom: solid 1px #eeeeee; 
+    
+}
+
+.navbar-nav .nav-link {
+ font-size: 16px;
+ margin-left: 10px;
+ color: antiquewhite;
+}
+.navbar-nav .active  .nav-link  {
+    color: #eeeeee !important ;
+    border-bottom: white 1px solid;
+    
+}
+
+.navbar-nav  .nav-link::after {
+    content: '';
+
+
+}
+
+.navbar .navbar-expand-lg .navbar-light {
+    display: inline-block;
+
+}
+
+.bg-image {
+    background-image: url(../images/intro-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    
+}
+
+.b-image  h1 {
+    color: white;
+    font-size: 4.5rem;
+    max-width: 801px;
+    margin-top: 50px;
+
+}
+.bg-image .introh {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    color: wheat;
+    text-align: center;
+    
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    margin-top: 12px;
+}
+
+/*End nav  bar*/
+
+
+/*start about*/
+
+.About-me {
+    width: 100%;
+    overflow: hidden;
+    min-height: 700px;
+    background-color: #F5F5F5;
+
+}
+
+
+.box-about {
+    background-color: white;
+    position: relative;
+    top: 80px ;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+    padding-bottom: 150px;
+    padding-top: 70px;
+
+
+}
+
+.box-about1 {
+    background-color: white;
+    position: relative; 
+    top: 80px ;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+    padding-bottom: 150px;
+    padding-top: 70px;
+}
+
+.sora img {
+    width: 100%;
+}
+
+.pragh {
+    word-wrap: break-word;
+}
+
+.s1 {
+    font-weight: bold;
+}
+
+.slil {
+    box-sizing: border-box;
+}
+
+.progress {
+    margin-bottom: 20px;
+}
+
+/*--End-about- me */
+
+
+/*--Start Services- Section  */
+
+.Services {
+    width: 100%;
+    background-color: #F5F5F5;
+    overflow: hidden;
+}
+
+.page-titl {
+    text-align: center;
+    margin: 50px 0px;
+    font-size: 25px;
+    
+}
+
+.page-titl h2{
+    font-size: 40px;
+}
+
+.page-titl p {
+
+    color: #4e4e4e;;
+}
+
+.boxing {
+    background-color: #FFFFFF;
+    margin: 0px 30px 40px 0px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+
+.boxmov {
+    justify-content: center;
+    
+}
+
+.box-type {
+    text-align: center;
+}
+
+.box-serv { 
+    margin-left: 10px;
+}
+
+/*--End Services- Section  */
+
+
+/*--Start timer- Section  */
+
+.bg-img{
+    background-image: url(../images/counters-bg.jpg);
+    height: 400px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    
+    
+    }
+
+.bbdd {
+    display: flex;
+    position: absolute;
+}
+
+.conect-work {
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+/*--End timer- Section  */
